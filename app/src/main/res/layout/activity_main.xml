@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/m_btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通播放"/>
+    <Button
+        android:id="@+id/m_btn_luoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="萝莉播放"/>
+    <Button
+        android:id="@+id/m_btn_jingsong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="惊悚播放"/>
+    <Button
+        android:id="@+id/m_btn_dashu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大叔播放"/>
+    <Button
+        android:id="@+id/m_btn_gaoguai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搞鬼播放"/>
+    <Button
+        android:id="@+id/m_btn_kongling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="空灵播放"/>
+</LinearLayout>
